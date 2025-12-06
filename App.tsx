@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Ticker from './components/Ticker';
 import Features from './components/Features';
 import Tokenomics from './components/Tokenomics';
 import TrustBar from './components/TrustBar';
+import Roadmap from './components/Roadmap';
 import Footer from './components/Footer';
 import { WalletState } from './types';
 
@@ -64,6 +65,7 @@ const App: React.FC = () => {
         <TrustBar />
         <Features />
         <Tokenomics />
+        <Roadmap />
         <Footer />
       </div>
     </div>
